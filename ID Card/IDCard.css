@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+h1, label, input, button, div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#idCard {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #897da7;
+    margin-top: 20px;
+}
+
+#idCard img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.idCard-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#postFullName, #postAge, #postPhoneNumber, #postAddress {
+    margin: 5px 0;
+}
